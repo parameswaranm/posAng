@@ -1,0 +1,22 @@
+.main-footer {
+    margin-right: 0 !important;
+    padding: 5px 10px;
+    font-size: 13px;
+    position: absolute;
+    width: calc(100% - 250px);
+    bottom: 0;
+    margin-right: -15px !important;
+}
+
+@media (min-width: 150px) and (max-width: 600px) {
+    .main-footer {
+        display: none;
+    }
+}
+
+.mat-checkbox-inner-container {
+    margin-left: 8px !important;
+}
+.content-area-pos {
+  margin-right: 0px !important;
+}
